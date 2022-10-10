@@ -39,6 +39,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         System.out.println();
         //使用自定义的认证类实现授权
         auth.userDetailsService(myUserDetailsService).passwordEncoder(encoder);
+
+
+        System.out.println();
     }
 
     /**
