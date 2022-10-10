@@ -19,6 +19,8 @@ public class PasswordConfig {
 //        明文密码
      return NoOpPasswordEncoder.getInstance();
 //     Bcrypt加密
+
+
        // return new BCryptPasswordEncoder();
     }
 }
