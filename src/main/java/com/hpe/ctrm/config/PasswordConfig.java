@@ -21,4 +21,8 @@ public class PasswordConfig {
 //     Bcrypt加密
        // return new BCryptPasswordEncoder();
     }
+
+    public static void main(String[] args) {
+        System.out.println();
+    }
 }
