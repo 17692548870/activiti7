@@ -35,6 +35,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
      */
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+
+        System.out.println();
         //使用自定义的认证类实现授权
         auth.userDetailsService(myUserDetailsService).passwordEncoder(encoder);
     }
